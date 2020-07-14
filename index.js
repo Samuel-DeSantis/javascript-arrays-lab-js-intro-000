@@ -16,13 +16,7 @@ function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
-function appendKitten(name) {
-
-  return kittens.concat(name);;
-}
-function prependKitten(name) {
-  kittens.unshift(name);
-  return kittens;
-}
+function appendKitten(name) {return kittens.concat(name);}
+function prependKitten(name) {return kittens.slice(-1);}
 function removeLastKitten() {}
 function removeFirstKitten() {}
