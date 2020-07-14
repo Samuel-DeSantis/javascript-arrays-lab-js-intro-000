@@ -18,5 +18,5 @@ function destructivelyRemoveLastKitten() {
 }
 function appendKitten(name) {return kittens.concat(name);}
 function prependKitten(name) {return name.concat(kittens);}
-function removeLastKitten() {return kittens.slice(-animals.length + 1);}
+function removeLastKitten() {return kittens.slice(animals.length);}
 function removeFirstKitten() {return kittens.slice(-animals.length + 1);}
